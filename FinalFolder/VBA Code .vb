@@ -1,7 +1,9 @@
 Sub Module2()
 
 Dim Ticker As String, tickernumber As Integer, Opening As Double, Closing As Double, Volume As LongLong
-Dim ws As Worksheet 'to work on all worksheets 
+Dim ws As Worksheet 'to work on all the worksheets
+
+' code beg
 
 For Each ws In Sheets
 
